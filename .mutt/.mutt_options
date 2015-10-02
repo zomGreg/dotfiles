@@ -1,0 +1,18 @@
+set index_format="%4C %Z %[!%b %d %Y %H:%M] %-17.17F (%3l) %s"
+set use_from=yes
+
+# Postponed mail goes to the Exchange Drafts folder
+set postponed="=Drafts"
+
+# Sent mail goes to the Exchange Sent Items folder
+set record="=Sent Items"
+
+# Use a signature file:
+#set signature="~/.signature"
+
+# Lastly, tell Mutt to interpret text/html emails by default
+# for easier reading.  This is purely optional
+auto_view text/html
+
+set ssl_starttls=yes
+set sort = threads
