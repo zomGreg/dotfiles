@@ -1,6 +1,9 @@
 set index_format="%4C %Z %[!%b %d %Y %H:%M] %-17.17F (%3l) %s"
 set use_from=yes
 
+set sort = threads 
+set sort_aux = reverse-last-date-received
+
 # Postponed mail goes to the Exchange Drafts folder
 set postponed="=Drafts"
 
@@ -15,4 +18,3 @@ set record="=Sent Items"
 auto_view text/html
 
 set ssl_starttls=yes
-set sort = threads
