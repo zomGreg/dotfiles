@@ -18,3 +18,7 @@ set record="=Sent Items"
 auto_view text/html
 
 set ssl_starttls=yes
+
+# HTML
+
+auto_view text/html
