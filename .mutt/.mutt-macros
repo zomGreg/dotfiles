@@ -1,0 +1,8 @@
+macro index .hl "l ^a^k!~l\n"       # hide list messages
+macro index .so "l ^a^k^O\n         # show old messages only
+macro index .sn "l ^a^k~N\n"        # show unread/new only
+macro index .sf "l ~F\n"            # show flagged messages only
+macro index .si "l (~n5-100|~N)\n"  # show higher scoring messages
+macro index .sa "l ^a^kall\n"       # show all messages
+macro index,pager gs "<change-folder> =INBOX/For<quote-char> Sale<enter>" "Go to for sale"
+macro index,pager gi "<change-folder> =INBOX<enter>" "Go to for inbox"
