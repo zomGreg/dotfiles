@@ -22,3 +22,11 @@ set ssl_starttls=yes
 # HTML
 
 auto_view text/html
+
+# Sidebar
+set sidebar_delim   = "│"
+set sidebar_visible = yes
+set sidebar_width   = 20
+set sidebar_sort = yes
+set sidebar_shortpath=yes
+color sidebar_new yellow default
