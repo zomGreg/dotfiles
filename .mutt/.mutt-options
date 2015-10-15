@@ -1,5 +1,6 @@
 set index_format="%4C %Z %[!%b %d %Y %H:%M] %-17.17F (%3l) %s"
 set use_from=yes
+set smart_wrap = yes
 
 set sort = threads 
 set sort_aux = reverse-last-date-received
