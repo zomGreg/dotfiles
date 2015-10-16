@@ -34,9 +34,6 @@ color sidebar_new yellow default
 
 # Sidebar keys
 
-bind index \CP sidebar-prev
-bind index \CN sidebar-next
-bind index \CO sidebar-open
-bind pager \CP sidebar-prev
-bind pager \CN sidebar-next
-bind pager \CO sidebar-open
+bind index \CK sidebar-prev
+bind index \CJ sidebar-next
+bind index \CL sidebar-open
